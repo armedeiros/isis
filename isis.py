@@ -170,7 +170,7 @@ with sr.Microphone() as s:
 			voz.say("Oi Eu sou a PROTÓTIPO ÍSIS, como posso ajudar?")
 			voz.runAndWait()
         
-        ##estrutura de ssegurança do bloco de executação, tratando exceções
+        	##estrutura de ssegurança do bloco de execução, tratando exceções
 		try:
 			time = datetime.now()
 

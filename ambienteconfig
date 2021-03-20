@@ -1,0 +1,73 @@
+Instalacao Notepad++
+
+Certifique-se que seu Windows já possua Ferramentas de Build do Visual Studio 2017
+senão instale: visual studio compiler https://aka.ms/vs/16/release/vc_redist.x64.exe
+
+Instalacao Anaconda versao python 3.7
+-após instalação entrar no Anaconda Navigator(visual) para criar o seu ambiente de trabalho
+-aqui utilizamos o nome "isis", nome da nossa solução
+
+cd\python
+activate isis
+
+##instalacao das bibliotecas utilizadas
+
+*atualizar o instalador PIP
+>python -m pip install --upgrade pip
+
+#apoio para casos de exceção
+#pip install <pacote> --use-feature=2020-resolver
+
+>pip install numpy
+##>pip install numpy==1.19.3
+
+>pip install pywinauto
+
+>pip install pyttsx3
+
+>pip install speechrecognition
+
+#para o chatterbot
+>pip install spacy
+
+#garante os pacotes de linguagem
+>python -m spacy download en
+>python -m spacy download pt #portuguese pt_core_news_sm'
+#python -m spacy download pt_core_news_lg
+#https://spacy.io/models/pt
+
+>pip install chatterbot
+>pip3 install chatterbot_corpus
+
+>pip install ez_setup
+
+>pip install pipwin
+
+>pip install pyauto
+
+>pip install pyaudio
+## https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio baixar a versão adequada ao seu pc
+## PyAudio‑0.2.11‑cp37‑cp37m‑win_amd64.whl
+
+##pipwin install pyauto
+
+##pip install blis
+
+##pip install --upgrade setuptools
+##conda install -c conda-forge spacy
+
+##pip install spyder
+
+##pip install msvc-runtime
+
+>pip install swing
+>pipwin install pocketsphinx
+
+##cv2
+>pip install opencv-python
+
+>pip install spyder 
+
+> pip install nltk 
+
+pip install google-api-python-client

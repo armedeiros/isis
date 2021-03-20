@@ -3,19 +3,18 @@
 - Certifique-se que seu Windows já possua Ferramentas de Build do Visual Studio 2017
 senão instale: visual studio compiler https://aka.ms/vs/16/release/vc_redist.x64.exe
 
-- Instalacao Anaconda versao python 3.7
+- Instalação Anaconda versão Python 3.7
 :após instalação entrar no Anaconda Navigator(visual) para criar o seu ambiente de trabalho
 :aqui utilizamos o nome "isis", nome da presente solução, no entanto é livre para qualquer nome de preferência
 
 - Inicie o Anaconda Prompt e nele execute os seguintes comandos:
 
->cd\python #pasta onde esta salvo o arquivo isis.py, no caso utiliza-e c:\python
+>cd \python #pasta onde esta salvo o arquivo isis.py, no caso utiliza-e c:\python
 
-#inicia o ambiente criado
-
+#iniciando o ambiente criado:
 >activate isis
 
-##instalacao das bibliotecas utilizadas
+##já dentro do ambiente, inica-se a instalação das bibliotecas utilizadas
 
 *atualizar o instalador PIP
 >python -m pip install --upgrade pip

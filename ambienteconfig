@@ -16,7 +16,7 @@ senão instale: visual studio compiler https://aka.ms/vs/16/release/vc_redist.x6
 
 ##já dentro do ambiente, inica-se a instalação das bibliotecas utilizadas
 
-*atualizar o instalador PIP
+#atualizar o instalador PIP
 >python -m pip install --upgrade pip
 
 #apoio para casos de exceção

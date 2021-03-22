@@ -37,7 +37,7 @@ senão instale: visual studio compiler https://aka.ms/vs/16/release/vc_redist.x6
 #garante os pacotes de linguagem
 >python -m spacy download en
 >python -m spacy download pt #portuguese pt_core_news_sm'
-#python -m spacy download pt_core_news_lg
+python -m spacy download pt_core_news_lg
 #https://spacy.io/models/pt
 
 >pip install chatterbot
@@ -53,16 +53,16 @@ senão instale: visual studio compiler https://aka.ms/vs/16/release/vc_redist.x6
 ## https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio baixar a versão adequada ao seu pc
 ## PyAudio‑0.2.11‑cp37‑cp37m‑win_amd64.whl
 
-##pipwin install pyauto
+>pipwin install pyauto
 
-##pip install blis
+>pip install blis
 
-##pip install --upgrade setuptools
+>pip install --upgrade setuptools
 ##conda install -c conda-forge spacy
 
-##pip install spyder
+>pip install spyder
 
-##pip install msvc-runtime
+>pip install msvc-runtime
 
 >pip install swing
 >pipwin install pocketsphinx
@@ -72,9 +72,9 @@ senão instale: visual studio compiler https://aka.ms/vs/16/release/vc_redist.x6
 
 >pip install spyder 
 
-> pip install nltk 
+>pip install nltk 
 
-pip install google-api-python-client
+>pip install google-api-python-client
 
 #com esse ambiente pronto, basta rodar o protótipo (lembrando que versões das libs mudam e exigem atenção), até 20/03/2021 está em pleno funcionamento:
 

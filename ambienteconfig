@@ -79,6 +79,6 @@ pip install google-api-python-client
 #com esse ambiente pronto, basta rodar o protótipo (lembrando que versões das libs mudam e exigem atenção), até 20/03/2021 está em pleno funcionamento:
 
 >activate isis
->python isis.py #aguarde execeução e interaja atravez de fala
+>python isis.py #aguarde execeução e interaja atráves de fala
 
 #ANDRE MEDEIROS 2020/2021 

@@ -113,8 +113,8 @@ def cv():
 	while(1):
 		 
 		#Captura img em RGB -> HSV
-		_, imagen = captura.read()
-		hsv = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV)
+		_, imagem = captura.read()
+		hsv = cv2.cvtColor(imagem, cv2.COLOR_BGR2HSV)
 	 
 		#Faixa de cores desejadas
 		verde_baixos = np.array([49, 50, 50], dtype=np.uint8) #49 50 50
@@ -138,12 +138,12 @@ def cv():
 			#print ("y = ", y)
 	 
 			#retangulo de detecção
-			cv2.rectangle(imagen, (x-5, y-5), (x+5, y+5),(0,0,255), 2)
-			cv2.putText(imagen, "pos x,y:"+ str(x)+","+str(y), (x+10,y+10), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1) #cv2.FONT_HERSHEY_SIMPLEX
+			cv2.rectangle(imagem, (x-5, y-5), (x+5, y+5),(0,0,255), 2)
+			cv2.putText(imagem, "pos x,y:"+ str(x)+","+str(y), (x+10,y+10), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1) #cv2.FONT_HERSHEY_SIMPLEX
 		 
 		#mascara x original
 		##cv2.imshow('mask', mask)
-		cv2.imshow('Câmera Atual do Dispositivo', imagen)				
+		cv2.imshow('Câmera Atual do Dispositivo', imagem)				
 		
 		#tecla = cv2.waitKey(5) & 0xFF  = shutdown
 		if cv2.waitKey(1) & 0xFF == ord('q'):

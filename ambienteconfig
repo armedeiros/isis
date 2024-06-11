@@ -39,6 +39,9 @@ senão instale: visual studio compiler https://aka.ms/vs/16/release/vc_redist.x6
 >python -m spacy download pt #portuguese pt_core_news_sm'
 python -m spacy download pt_core_news_lg
 #https://spacy.io/models/pt
+#SPACY LIB
+#11-06-2024 - atenção ao uso de en e en_core_news_sm => https://stackoverflow.com/questions/66087475/chatterbot-error-oserror-e941-cant-find-model-en
+#as libs podem mudar e exigem atenção, conforme relatado na dissertação.
 
 >pip install chatterbot
 >pip3 install chatterbot_corpus
